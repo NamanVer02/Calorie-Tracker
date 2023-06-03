@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:calorie_tracker/widgets/expenses.dart';
+//import 'package:flutter/services.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
   seedColor: Colors.greenAccent
@@ -10,6 +11,15 @@ var kDarkColorScheme = ColorScheme.fromSeed(
   seedColor: Colors.greenAccent
 );
 void main() {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations(
+  //   [
+  //     DeviceOrientation.portraitDown,
+  //     DeviceOrientation.landscapeLeft,
+  //     DeviceOrientation.landscapeRight
+  //   ]
+  // );
+
   runApp(
     MaterialApp(
       darkTheme: ThemeData.dark().copyWith(

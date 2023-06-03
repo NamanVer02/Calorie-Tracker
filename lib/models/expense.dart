@@ -24,7 +24,7 @@ class Expense {
 
   final String id;
   final String title;
-  final int calories;
+  final int calories; 
   final DateTime date;
   final Category category;
 
